@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  gap: 60px;
 }
 
 h2 {
@@ -25,8 +27,33 @@ p {
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   border: 1px solid #a9a9a9;
   padding: 20px;
+}
+
+.form-input-control {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.form-submit-control {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.form-group-horizontal-control {
+	display: flex;
+	justify-content: center;
+}
+
+.form-input-control{
+	width: 50%;
 }
 
 .subtext {
@@ -48,7 +75,17 @@ label {
   font-weight: bold;
 }
 
+input + label {
+	font-weight: normal;
+}
+
 input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+
+select {
   width: 100%;
   height: 30px;
   padding: 5px;
