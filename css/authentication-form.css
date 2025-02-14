@@ -50,10 +50,11 @@ form {
 .form-group-horizontal-control {
 	display: flex;
 	justify-content: center;
+	gap: 20px;
 }
 
 .form-input-control{
-	width: 50%;
+	width: 100%;
 }
 
 .subtext {

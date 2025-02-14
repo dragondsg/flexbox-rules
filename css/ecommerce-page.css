@@ -148,6 +148,9 @@ i.fa-th-list {
   height: 40px;
   border: 1px solid #8d8ba5;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
@@ -174,6 +177,9 @@ i.fa-th-list {
 .product-description {
   line-height: 24px;
   color: #8d8ba5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .product-price {
@@ -226,6 +232,8 @@ i.fa-th-list {
   text-align: center;
   padding: 0 20px 30px;
   height: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid .product-action {
@@ -259,12 +267,13 @@ i.fa-th-list {
 .lines .product-data {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .lines .product-info {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .lines .product-action {
@@ -294,6 +303,9 @@ i.fa-th-list {
 }
 
 .lines-action .product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .lines-action .product-action {
